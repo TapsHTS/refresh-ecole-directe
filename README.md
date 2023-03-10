@@ -1,4 +1,5 @@
-# Refresh Ecole Directe
+![Extension Icon](./icons/icon48.png)
+# Refresh Ecole Directe 
 
 Cette extension Chrome vous permet de mettre à jour en temps réel votre moyenne générale sur Ecole Directe.
 
@@ -15,8 +16,6 @@ Cette extension Chrome vous permet de mettre à jour en temps réel votre moyenn
 ## 📱 Utilisation
 
 Après l'installation, rendez-vous sur votre page de moyenne générale sur [Ecole Directe](https://ecoledirecte.com). L'extension rafraîchira automatiquement votre moyenne.
-
-![Extension Icon](./icons/icon48.png)
 
 ## 🧩 Contribution
 
