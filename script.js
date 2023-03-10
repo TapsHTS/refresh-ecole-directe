@@ -104,7 +104,7 @@ setInterval(() => {
       let textInfo = document.getElementsByClassName('help-block ng-star-inserted');
       // ajoute a la suite du texte mais une fois seulement
       if (textInfo[0].innerHTML.includes("Moyenne générale actualisée") == false) {
-      textInfo[0].innerHTML += "<br><b>Moyenne générale actualisée</b> - Vous êtes entrain d'utiliser une version modifiée de l'application qui calcule votre moyenne automatiquement.";
+      textInfo[0].innerHTML = "<br><b>Moyenne générale actualisée</b> - Vous êtes entrain d'utiliser une version modifiée de l'application qui calcule votre moyenne automatiquement.";
       }
 
   }
