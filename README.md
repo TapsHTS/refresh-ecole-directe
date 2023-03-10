@@ -5,7 +5,7 @@ Cette extension Chrome vous permet de mettre à jour en temps réel votre moyenn
 ## ➕ Installation
 
 1. Téléchargez ou clonez ce dépôt GitHub sur votre ordinateur.
-2. Ouvrez Google Chrome et allez dans les paramètres (3 points verticaux en haut à droite de l'écran).
+2. Ouvrez Google Chrome (ou un autre navigateur utilisant chrome comme Brave) et allez dans les paramètres (3 points verticaux en haut à droite de l'écran).
 3. Sélectionnez "Plus d'outils" > "Extensions".
 4. Activez le mode développeur en cliquant sur le bouton correspondant en haut à droite.
 5. Cliquez sur "Charger l'extension non empaquetée".
