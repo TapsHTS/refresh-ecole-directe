@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "RefreshEcoleDirecte",
+    "description": "Cette extension chrome vous permet de mettre à jour en temps réel votre moyenne générale.",
+    "version": "1.0",
+    "icons": { 
+        "16": "./icons/icon16.png",
+        "48": "./icons/icon48.png",
+        "128": "./icons/icon128.png" 
+    },
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ],
+  
+    "content_scripts": [
+      {
+        "matches": ["https://www.ecoledirecte.com/E/*/Notes"],
+        "js": ["script.js"]
+      }
+    ]
+  }
