@@ -5,9 +5,11 @@ setInterval(() => {
   let checker = document.getElementsByClassName('active nav-item ng-star-inserted');
 
   if (checker.length > 0) {
+    if(checker[0].innerText === "Evaluations") {
+
       // Récupérer tous les éléments HTML correspondant à la classe "note cliquable"
       let notes = document.getElementsByClassName('note cliquable');
-
+        if (notes.length > 0) {
       // Filtrer les notes pour supprimer celles contenant "Abs" ou "NE" ou "Disp" ou "EA" ou quelles commencant par "("
       let notesValides = Array.from(notes).filter(note => !note.innerText.includes('Abs') && !note.innerText.includes('NE') && !note.innerText.includes('Disp') && !note.innerText.includes('EA') && !note.innerText.startsWith('('));
 
@@ -104,9 +106,10 @@ setInterval(() => {
       let textInfo = document.getElementsByClassName('help-block ng-star-inserted');
       // ajoute a la suite du texte mais une fois seulement
       if (textInfo[0].innerHTML.includes("Moyenne générale actualisée") == false) {
-      textInfo[0].innerHTML = "<br><b>Moyenne générale actualisée</b> - Vous êtes en train d'utiliser une version modifiée de l'application qui calcule votre moyenne automatiquement.";
+      textInfo[0].innerHTML = "<b>Moyenne générale actualisée</b> - Vous êtes en train d'utiliser une version modifiée de l'application qui calcule votre moyenne automatiquement.";
       }
-
+    }
+    }
   }
 
 }, 100);
