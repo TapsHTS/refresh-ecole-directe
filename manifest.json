@@ -15,7 +15,7 @@
   
     "content_scripts": [
       {
-        "matches": ["https://www.ecoledirecte.com/E/*"],
+        "matches": ["https://www.ecoledirecte.com/*"],
         "js": ["script.js"]
       }
     ]
