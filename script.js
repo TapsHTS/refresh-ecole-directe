@@ -5,7 +5,7 @@ setInterval(() => {
   let checker = document.getElementsByClassName('active nav-item ng-star-inserted');
 
   if (checker.length > 0) {
-    if(checker[0].innerText === "Evaluations") {
+    if(checker[0]?.innerText === "Evaluations") {
 
       // Récupérer tous les éléments HTML correspondant à la classe "note cliquable"
       let notes = document.getElementsByClassName('note cliquable');
